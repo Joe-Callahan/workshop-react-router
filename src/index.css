@@ -1,4 +1,4 @@
-*{ font-family: arial, sans-serif;
+*{ font-family: fantasy;
   margin: 0;
 }
 body,
@@ -11,7 +11,7 @@ body > div {
   display: flex;
   flex-direction: column;
 }
-#container > div {
+#container > div, footer {
   display: flex;
 }
 #navbar {
@@ -44,4 +44,11 @@ body > div {
 .orange {
   background-color: orange;
   color: white;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-family: impact;
+  font-size: 3vh;
 }

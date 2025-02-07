@@ -6,8 +6,8 @@ const App = () => {
   return (
     <>
       <div id="container">
-        <NavBar />
         <MainContainer />
+        <NavBar />
       </div>
     </>
   )
